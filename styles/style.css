@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.wrapper {
+  padding: 25px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wrapper .pomodoro {
+  background-color: #96b8f8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 15px;
+  min-height: 25vh;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+.wrapper .pomodoro .pomodoro-title {
+  color: red;
+  margin-bottom: 25px;
+}
+.wrapper .pomodoro .clock {
+  font-size: 48px;
+  margin-bottom: 50px;
+}
+.wrapper .pomodoro .buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+  row-gap: 30px;
+  font-size: 20px;
+}
+.wrapper .pomodoro .buttons .btn {
+  padding: 15px 20px;
+  background-color: rgb(230, 59, 59);
+  border-radius: 20px;
+  text-align: center;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+}
+.wrapper .pomodoro .action {
+  display: flex;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+  font-size: 22px;
+  margin-bottom: 50px;
+  color: #fff;
+}
+.wrapper .pomodoro .action .start {
+  padding: 10px 25px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: rgb(70, 54, 161);
+  cursor: pointer;
+  color: #fff;
+}
+.wrapper .pomodoro .action .reset {
+  padding: 10px 25px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: rgb(70, 54, 161);
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
